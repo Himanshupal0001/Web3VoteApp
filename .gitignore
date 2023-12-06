@@ -1,0 +1,40 @@
+node_modules
+web3/.env
+
+# Hardhat files
+web3/cache
+web3/artifacts
+
+# TypeChain files
+web3/typechain
+web3/typechain-types
+
+# solidity-coverage files
+web3/coverage
+web3/coverage.json
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+client/node_modules
+client/.pnp
+client/.pnp.js
+
+# testing
+client/coverage
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
